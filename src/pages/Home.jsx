@@ -4,7 +4,7 @@ import { SiPython, SiLibreofficecalc, SiGrafana, SiMysql } from 'react-icons/si'
 import './Home.css';
 
 const quickSkills = [
-  { icon: <SiPython />, label: 'Python' },
+  // { icon: <SiPython />, label: 'Python' },
   { icon: <SiMysql />, label: 'SQL' },
   { icon: <SiLibreofficecalc />, label: 'Excel' },
   { icon: <SiGrafana />, label: 'Tableau' },
@@ -114,7 +114,7 @@ export default function Home() {
               <div className="image-frame">
                 <div className="image-glow"></div>
                 <img
-                  src="/tripti.png"
+                  src="/TRIPTI1.jpeg"
                   alt="Tripti - Data Analyst"
                   className="hero-img"
                 />
@@ -138,7 +138,7 @@ export default function Home() {
               <div className="float-card float-card-3">
                 <span className="float-icon">💻</span>
                 <div>
-                  <span className="float-title">Python &amp; SQL</span>
+                  <span className="float-title">Excel &amp; SQL</span>
                   <span className="float-sub">Core Skills</span>
                 </div>
               </div>
@@ -148,12 +148,12 @@ export default function Home() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="scroll-indicator">
+      {/* <div className="scroll-indicator">
         <div className="scroll-mouse">
           <div className="scroll-wheel"></div>
         </div>
         <span>Scroll to explore</span>
-      </div>
+      </div> */}
     </section>
   );
 }
