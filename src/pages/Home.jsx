@@ -114,7 +114,7 @@ export default function Home() {
               <div className="image-frame">
                 <div className="image-glow"></div>
                 <img
-                  src="/TRIPTI1.jpeg"
+                  src="/image.jpeg"
                   alt="Tripti - Data Analyst"
                   className="hero-img"
                 />
