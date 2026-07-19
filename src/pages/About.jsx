@@ -33,7 +33,7 @@ export default function About() {
           <div className="profile-card-wrapper">
             <div className="profile-card card">
               <div className="profile-img-box">
-                <img src="/tripti.png" alt="Tripti" className="about-img" />
+                <img src="/TRIPTI1.jpeg" alt="Tripti" className="about-img" />
                 <div className="profile-img-ring"></div>
               </div>
               <div className="profile-info">
