@@ -12,10 +12,10 @@ const skillCategories = [
     icon: '💻',
     color: 'purple',
     skills: [
-      { name: 'Python', icon: <SiPython />, level: 75, color: '#3776AB' },
-      { name: 'SQL', icon: <SiMysql />, level: 70, color: '#4479A1' },
+      // { name: 'Python', icon: <SiPython />, level: 20, color: '#3776AB' },
+      { name: 'SQL', icon: <SiMysql />, level: 30, color: '#4479A1' },
       { name: 'HTML', icon: <SiHtml5 />, level: 60, color: '#E34F26' },
-      { name: 'CSS', icon: <SiCss />, level: 55, color: '#1572B6' },
+      { name: 'CSS', icon: <SiCss />, level: 30, color: '#1572B6' },
     ],
   },
   {
@@ -23,9 +23,9 @@ const skillCategories = [
     icon: '📊',
     color: 'cyan',
     skills: [
-      { name: 'Pandas', icon: <SiPandas />, level: 70, color: '#150458' },
-      { name: 'NumPy', icon: <SiNumpy />, level: 65, color: '#013243' },
-      { name: 'Jupyter', icon: <SiJupyter />, level: 75, color: '#F37626' },
+      // { name: 'Pandas', icon: <SiPandas />, level: 23, color: '#150458' },
+      // { name: 'NumPy', icon: <SiNumpy />, level: 34, color: '#013243' },
+      // { name: 'Jupyter', icon: <SiJupyter />, level: 25, color: '#F37626' },
       { name: 'MS Excel', icon: <SiLibreofficecalc />, level: 80, color: '#217346' },
     ],
   },
@@ -148,14 +148,14 @@ export default function Skills() {
           <h2 className="tools-mosaic-title">Tools I Work With</h2>
           <div className="tools-cloud">
             {[
-              { icon: <SiPython />, name: 'Python', color: '#3776AB' },
+              // { icon: <SiPython />, name: 'Python', color: '#3776AB' },
               { icon: <SiMysql />, name: 'MySQL', color: '#4479A1' },
               { icon: <SiLibreofficecalc />, name: 'Excel', color: '#217346' },
               { icon: <SiGrafana />, name: 'Tableau', color: '#E97627' },
               { icon: <SiDatabricks />, name: 'Power BI', color: '#F2C811' },
-              { icon: <SiPandas />, name: 'Pandas', color: '#8B5CF6' },
-              { icon: <SiNumpy />, name: 'NumPy', color: '#06B6D4' },
-              { icon: <SiJupyter />, name: 'Jupyter', color: '#F37626' },
+              // { icon: <SiPandas />, name: 'Pandas', color: '#8B5CF6' },
+              // { icon: <SiNumpy />, name: 'NumPy', color: '#06B6D4' },
+              // { icon: <SiJupyter />, name: 'Jupyter', color: '#F37626' },
               { icon: <SiGit />, name: 'Git', color: '#F05032' },
               { icon: <SiGithub />, name: 'GitHub', color: '#ffffff' },
             ].map((tool, i) => (
